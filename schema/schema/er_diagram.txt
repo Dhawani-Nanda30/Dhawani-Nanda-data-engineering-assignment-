@@ -1,0 +1,10 @@
+Users (user_id PK)
+        |
+        |
+Events (event_id PK, user_id FK, product_id FK, event_type, event_time, price)
+        |
+        |
+Products (product_id PK, category_id)
+        |
+        |
+Categories (category_id PK, category_name)
